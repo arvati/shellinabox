@@ -27,3 +27,6 @@ opkg install --force-checksum zlib_1.2.11-1_mipsel_24kc.ipk
 opkg install shellinabox_2.20_mipsel_24kc.ipk
 service shellinaboxd start
 ```
+Access with:
+
+http://192.168.1.1:4200/
