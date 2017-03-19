@@ -25,4 +25,5 @@ opkg install --force-checksum busybox_1.25.1-2_mipsel_24kc.ipk
 opkg install --force-checksum libopenssl_1.0.2k-1_mipsel_24kc.ipk
 opkg install --force-checksum zlib_1.2.11-1_mipsel_24kc.ipk
 opkg install shellinabox_2.20_mipsel_24kc.ipk
+service shellinaboxd start
 ```
