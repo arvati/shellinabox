@@ -23,3 +23,8 @@ $ make package/index
 
 $ ls bin/packages/mipsel_24kc/base/shellinabox*
 
+$ ls bin/packages/mipsel_24kc/base/busybox*
+
+$ ls bin/packages/mipsel_24kc/base/libopenssl*
+
+$ ls bin/packages/mipsel_24kc/base/zlib*
