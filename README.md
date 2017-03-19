@@ -30,3 +30,13 @@ $ ls bin/packages/mipsel_24kc/base/busybox*
 $ ls bin/packages/mipsel_24kc/base/libopenssl*
 
 $ ls bin/packages/mipsel_24kc/base/zlib*
+
+
+At device:
+```bash
+opkg update
+opkg install busybox_1.25.1-2_mipsel_24kc.ipk
+opkg install libopenssl_1.0.2k-1_mipsel_24kc.ipk
+opkg install zlib_1.2.11-1_mipsel_24kc.ipk
+opkg install shellinabox_2.20_mipsel_24kc.ipk
+```
