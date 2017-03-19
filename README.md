@@ -11,6 +11,8 @@ $ git pull
 
 $ cd ..
 
+$ cd ..
+
 $ make menuconfig
 
 Select shellinabox in Network category
