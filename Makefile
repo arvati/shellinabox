@@ -20,7 +20,8 @@ define Package/shellinabox
   CATEGORY:=Network
   TITLE:=a web based terminal emulator
   URL:=https://github.com/shellinabox/shellinabox
-  DEPENDS:=+zlib +libopenssl +busybox +@BUSYBOX_CUSTOM +@BUSYBOX_CONFIG_LOGIN
+  #DEPENDS:=+zlib +libopenssl +busybox +@BUSYBOX_CUSTOM +@BUSYBOX_CONFIG_LOGIN
+  DEPENDS:=+zlib +busybox
 endef
 
 define Package/shellinabox/description
